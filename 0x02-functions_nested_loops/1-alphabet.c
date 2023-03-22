@@ -12,4 +12,5 @@ int main(void)
 	for (ch = 0; ch <= 'z'; ch++)
 		_putchar(ch);
 	_putchar('\n');
+	return (0);
 }

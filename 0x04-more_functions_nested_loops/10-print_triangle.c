@@ -5,7 +5,7 @@
  *
  * @size: size of triangle
  *
- * Return: Alwaysa 0
+ * Return: Always 0 (success)
 */
 
 void print_triangle(int size)
@@ -20,7 +20,7 @@ void print_triangle(int size)
 		{
 			for (base = 1; base <= size; base++)
 			{
-				if ((height + base) < size)
+				if ((height + base) <= size)
 					_putchar(' ');
 				else
 					_putchar('#');

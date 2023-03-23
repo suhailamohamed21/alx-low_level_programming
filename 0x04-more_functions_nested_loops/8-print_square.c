@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_square - prints a square using #
+ * print_square - prints square by using #
  *
  * @size: size of square
  *
@@ -12,10 +12,10 @@ void print_square(int size)
 {
 	int row, column;
 
-	for (row = 1; row <= size; row++)
+	for (row = 0; row <= size; row++)
 	{
-		for (column = 1; column <= size; column++)
-			_putchar('#');
+		for (column = 0; column <= size; column++)
+			_putchar(35);
 		_putchar('\n');
 	}
 }
